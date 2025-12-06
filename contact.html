@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Angeliki Kotsogianni</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<header class="hero small-hero fade-in">
+  <div class="theme-toggle">
+    <button id="themeButton">🌙</button>
+  </div>
+
+  <div class="container">
+    <h1 class="title">Contact Me</h1>
+    <p class="subtitle">Feel free to reach out at any time.</p>
+
+    <div class="cta">
+      <a href="index.html" class="button secondary">← Back to Home</a>
+    </div>
+  </div>
+</header>
+
+<section class="section fade-in">
+  <div class="container">
+    <h3>Let's Get in Touch</h3>
+
+    <div class="contact-box hover-up">
+      <p><strong>Email:</strong> <a href="mailto:aggekwts@gmail.com">aggekwts@gmail.com</a></p>
+      <p><strong>LinkedIn:</strong>
+        <a href="https://www.linkedin.com/in/angeliki-kotsogianni-32b15b263" target="_blank">
+          linkedin.com/in/angeliki-kotsogianni-32b15b263
+        </a></p>
+    </div>
+
+    <h3>Send a Message</h3>
+
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.get("sent") === "true") {
+        alert("Your message has been sent successfully!");
+      }
+    </script>
+
+    <form class="contact-form hover-up"
+          action="https://formsubmit.co/aggekwts@gmail.com"
+          method="POST">
+      <label>Name</label>
+      <input type="text" placeholder="Your name..." required>
+
+      <label>Email</label>
+      <input type="email" placeholder="Your email..." required>
+
+      <label>Message</label>
+      <textarea rows="6" placeholder="Your message..." required></textarea>
+
+      <button type="submit" class="button primary">Send Message</button>
+    </form>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>© 2025 Angeliki Kotsogianni</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
