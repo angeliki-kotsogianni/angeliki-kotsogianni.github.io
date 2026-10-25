@@ -30,38 +30,77 @@
     <h3>Highlighted Professional Work</h3>
 
     <div class="work-card hover-up">
-      <h4>CRRS — eu-LISA</h4>
-      <p class="work-meta">Software Engineer • ARHS Group part of Accenture • December 2024 – Present</p>
+      <h4>Sports Betting Platform — Bally's Intralot</h4>
+      <p class="work-meta">Software Engineer • Bally's Intralot • April 2026 – Present</p>
 
       <p>
-        CRRS is a large-scale system serving the European Union.
-        My work mainly includes backend development and data engineering.
+        Developing and maintaining the Java-based backend services of a real-time sports betting platform,
+        across multiple environments and including participation in deployments.
       </p>
 
       <ul>
-        <li>Developed backend components in <strong>Java</strong> and <strong>Python</strong></li>
-        <li>Designed ETL flows and <strong>data ingestion pipelines</strong></li>
-        <li>Worked with <strong>IBM Cloud Pak for Data</strong> for big-data workloads</li>
-        <li>Built cloud-ready services deployed on <strong>OpenShift</strong> using Helm charts</li>
-        <li>Participated in <strong>on-site mission in Strasbourg</strong> to support release deployment in airtight environment</li>
-        <li>Debugged and improved processing workflows and schema validations</li>
+        <li>Participating in <strong>deployments</strong> across multiple environments</li>
+        <li>Refactoring <strong>legacy code</strong> and correcting past design decisions</li>
+        <li>Integrating the platform with the <strong>player account management system</strong> after its ownership moved to another team, as well as with the user-facing frontend and the central orchestration layer</li>
       </ul>
     </div>
 
     <div class="work-card hover-up">
-      <h4>Software Engineering</h4>
-      <p class="work-meta">Backend Engineering • Frontend Engineering</p>
+      <h4>Market-Data API Re-architecture</h4>
+      <p class="work-meta">Java • SQL • Performance</p>
 
       <p>
-        Contributing to the design and implementation of backend components and services within the CRRS (eu-LISA) system.
+        Re-architected the market-data API behind the real-time trading UI.
       </p>
 
       <ul>
-        <li>Developing backend services in <strong>Java</strong> and <strong>Python</strong> for large-scale system functionalities.</li>
-        <li>Implementing new features, improving existing services, and ensuring code quality through testing and structured development practices.</li>
-        <li>Participating in system design discussions and contributing to the architecture of backend components and APIs (REST and gRPC).</li>
-        <li>Supporting frontend development with React when needed.</li>
-        <li>Writing unit and integration tests (JUnit, Mockito) and debugging complex issues to ensure service reliability and maintainability.</li>
+        <li>Replaced a load-the-whole-event design with <strong>paginated, lightweight endpoints</strong></li>
+        <li>Eliminated an <strong>N+1 query</strong> pattern</li>
+        <li>Cut response times <strong>up to 8x</strong></li>
+        <li>Verified behavior against the legacy API</li>
+      </ul>
+    </div>
+
+    <div class="work-card hover-up">
+      <h4>Security & Production Debugging</h4>
+      <p class="work-meta">Burp Suite • PostgreSQL • Caching</p>
+
+      <ul>
+        <li>Reproduced, documented and fixed <strong>20+ penetration test findings</strong></li>
+        <li>Debugged <strong>SQL query bugs</strong> that corrupted risk-manager calculations</li>
+        <li>Fixed wallet debit issues and <strong>cache invalidation</strong> problems</li>
+      </ul>
+    </div>
+
+    <div class="work-card hover-up">
+      <h4>AI in the Engineering Workflow</h4>
+      <p class="work-meta">Claude • Claude Code</p>
+
+      <p>
+        Integrated AI into my daily engineering workflow and helped my colleagues adopt it.
+      </p>
+
+      <ul>
+        <li>Built <strong>custom skills and plugins</strong> for development, debugging and analysis</li>
+        <li>Authored an <strong>internal guide</strong> covering setup through creating custom skills and plugins</li>
+        <li>Co-led a <strong>handover session</strong> introducing the tooling to the team</li>
+      </ul>
+    </div>
+
+    <div class="work-card hover-up">
+      <h4>CRRS — eu-LISA</h4>
+      <p class="work-meta">Software Engineer • ARHS Group part of Accenture • December 2024 – March 2026</p>
+
+      <p>
+        CRRS is a large-scale system serving the European Union.
+        My work mainly included backend development and data engineering.
+      </p>
+
+      <ul>
+        <li>Developed backend services in <strong>Java</strong> and <strong>Python</strong></li>
+        <li>Contributed to the design of backend components and APIs (<strong>REST</strong> and <strong>gRPC</strong>)</li>
+        <li>Wrote unit and integration tests (JUnit, Mockito) and debugging complex issues</li>
+        <li>Worked with <strong>IBM Cloud Pak for Data</strong> for big-data workloads</li>
       </ul>
     </div>
 
@@ -75,10 +114,10 @@
       </p>
 
       <ul>
-        <li>Designed ETLs for high-volume ingestion</li>
+        <li>Designed ETL pipelines and ingestion workflows for <strong>high-volume datasets</strong></li>
+        <li>Made decisions on data movement across the system</li>
         <li>Implemented data transformations and validations</li>
         <li>Integrated Kafka-based workflows between services</li>
-        <li>Optimized pipeline performance and monitoring</li>
       </ul>
     </div>
 
@@ -87,14 +126,40 @@
       <p class="work-meta">OpenShift • Helm • CI/CD</p>
 
       <p>
-        Followed deployments and DevOps activities in a secure, containerized environment.
+        Built and deployed cloud-native components in a secure, containerized environment.
       </p>
 
       <ul>
-        <li>Managed Helm chart configurations for service deployments</li>
-        <li>Assisted DevOps teams during live release deployment</li>
-        <li>Troubleshot cluster-level issues during Strasbourg mission</li>
+        <li>Built and deployed services on <strong>OpenShift</strong> using <strong>Helm</strong> charts</li>
         <li>Worked with CI/CD pipelines to integrate new services smoothly</li>
+        <li>Joined an <strong>on-site mission in Strasbourg</strong> to support a release deployment</li>
+        <li>Troubleshot issues together with DevOps during the release</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section class="section alt fade-in">
+  <div class="container">
+    <h3>Side Projects</h3>
+
+    <div class="work-card hover-up">
+      <h4>Pinezes — Neighbourhood Reporting Platform</h4>
+      <p class="work-meta">Personal project • Full-stack • 2026 – Present • Launching soon</p>
+
+      <p>
+        A citizen reporting platform filtered by area: what is happening in my neighbourhood today.
+        Citizens pin reports and events on a map, and official notices from public sources appear as a separate layer.
+        Designed and built by me, using Claude Code as part of my workflow.
+      </p>
+
+      <ul>
+        <li>Backend in <strong>Java 21 / Spring Boot 4</strong> with <strong>PostgreSQL + PostGIS</strong>: geospatial queries by radius, distance and municipality</li>
+        <li>Scheduled <strong>ingestion of official notices</strong> from public sources (water cuts, transit changes, weather warnings, earthquakes, fire hotspots) and events from municipal calendars</li>
+        <li><strong>React 19 + TypeScript</strong> frontend with <strong>MapLibre</strong> and marker clustering; area search tolerant of accents and letter case</li>
+        <li><strong>JWT authentication</strong> and a dedicated security review pass</li>
+        <li><strong>Integration tests</strong> for the spatial SQL on a real PostGIS with <strong>Testcontainers</strong></li>
       </ul>
     </div>
 
@@ -107,8 +172,9 @@
       </p>
 
       <ul>
-        <li>Strong interest in algorithmic problem-solving.</li>
-        <li>Exploring Data Science and ML concepts.</li>
+        <li>Specialization in Data and Knowledge Management.</li>
+        <li>Strong interest in algorithmic problem-solving and distributed systems.</li>
+        <li>Exploring Data Science and Data Mining concepts.</li>
         <li>Continuously expanding mathematics foundations (probabilistic algorithms, discrete mathematics, graph theory, game theory & decision theory).</li>
       </ul>
     </div>
@@ -118,7 +184,7 @@
 
 <footer>
   <div class="container">
-    <p>© 2025 Angeliki Kotsogianni</p>
+    <p>© 2026 Angeliki Kotsogianni</p>
   </div>
 </footer>
 
